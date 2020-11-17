@@ -1,7 +1,5 @@
 <?php
-   define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'root');
-   define('DB_PASSWORD', '');
-   define('DB_DATABASE', 'login_form');
-   $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-?>
+
+	require_once 'project-config.php';
+
+	$database_connection = mysqli_connect( DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_DATABASE );
