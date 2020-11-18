@@ -40,7 +40,7 @@
             <h1>SIMPLE LOGIN</h1>
             <form method="POST">
                 <label>Username:<input type="text" name="username" class="text" autocomplete="off" required></label>
-                <label>Password:<input type="Password" name="password" class="text" required></label>
+                <label>Password:<input type="password" name="password" class="text" required></label>
                 <input type="Submit" name="Submit" id="Sub">
             </form>
         </div>
